@@ -116,5 +116,3 @@ JSONL format: one JSON object per line, UTF‑8, Cyrillic preserved (`ensure_asc
 - **Do not commit `.env` or session files**. They contain secrets and login session data.
 - Telegram has rate limits; the scraper includes basic `FloodWait` handling.
 - Deletion detection is **best-effort** within the configured window.
-
-
