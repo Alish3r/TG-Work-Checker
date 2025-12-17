@@ -1,0 +1,8 @@
+﻿.env
+.venv/
+__pycache__/
+*.pyc
+*.session*
+telegram_messages.db
+telegram_messages.csv
+chatgpt_export.jsonl
