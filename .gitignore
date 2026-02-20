@@ -7,3 +7,27 @@ telethon_session.session
 telegram_messages.db
 telegram_messages.csv
 chatgpt_export.jsonl
+# OS
+.DS_Store
+Thumbs.db
+# IDE / Editor
+.idea/
+.vscode/
+.cursor/
+# Env and secrets
+.env.*
+!.env.example
+*.pem
+# Dependencies and build
+node_modules/
+venv/
+dist/
+build/
+*.egg-info/
+.eggs/
+.terraform/
+# Logs and temp
+*.log
+.cache/
+tmp/
+temp/
